@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Book Store</title>
+    <!-- kit -->
+    <script
+      src="https://kit.fontawesome.com/d08fba0fb1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="model">
+      <div class="container">
+        <h1 class="form_title">Add new books!</h1>
+        <p class="form_subtitle">
+          You can add multiple books to your rading list,you,can delete them and
+          marked as read.
+        </p>
+        <!-- form -->
+        <form action="" class="form">
+          <div class="input-div" style="display: flex; flex-direction: column;">
+            <input type="text" name="bookname" />
+            <label for="" class="form-level">Name Of the book!</label>
+            <input type="text" name="bookAuthor" />
+            <label for="" class="form-level">Author Of the book!</label>
+            <input type="text" name="bookImage" />
+            <label for="" class="form-level">Book poster image URL</label>
+            <button class="form-button" type="submit" data-tilt>Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <section class="books-section">
+      <div class="books">
+        <ul class="book_list"></ul>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+  </body>
+</html>
